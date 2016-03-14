@@ -14,3 +14,14 @@ this would help with this ability.
 > How can you use the staging area to make sure you have one commit per logical change?
 Only add files that are related to the logical change!
 
+> What are some situations when branches would be helpful in keeping your history organized? 
+> How would branches help?
+The situations offered in the video included when you want to try a brand new version of the code, 
+or if you wanted to create a new language version. I could see it working if you wanted to refactor 
+a large percentage of the code, while leaving the main branch intact. For example, when working on 
+a new version of a piece of software, you could use branches to keep track of each version. 
+
+Branches would help by keeping the main branch and the different versions separate, so you could 
+continue to provide bug fixes to older versions, while still trying experimental or new features 
+in the branches.
+
