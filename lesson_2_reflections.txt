@@ -25,3 +25,7 @@ Branches would help by keeping the main branch and the different versions separa
 continue to provide bug fixes to older versions, while still trying experimental or new features 
 in the branches.
 
+> How do the diagrams help you visualize the branch structure?
+You can see the parents of all commits. You can also see any commits that are not related 
+to a branch. The information in these commits would be lost if you didn't create a branch. 
+
