@@ -36,4 +36,12 @@ the diagram that way because both branches had parent commits. By creating a new
 with two parents, this maintains the structure of the commits in both branches, if needed 
 later.
 
+> What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+The pros are that there is less work for humans using automatic merging. One potential 
+con is that Git could merge changes that were not intended to be together. For example 
+if two people added two functions, but never actually called them (which would result 
+in a merge conflict). You may not want to add both changes. However, Git automatic 
+merging seems to be a good balance between the computer guessing and requiring 
+human intervention at every step.
+
 
