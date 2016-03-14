@@ -10,3 +10,7 @@ working directory.
 The staging area will allow us to add multiple files at a single time. In the first lesson, 
 one of the advantages of git was the ability to link several files together in a single commit,
 this would help with this ability.
+
+> How can you use the staging area to make sure you have one commit per logical change?
+Only add files that are related to the logical change!
+
