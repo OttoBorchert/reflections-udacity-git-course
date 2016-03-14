@@ -1,0 +1,58 @@
+> How did viewing a diff between two versions of a file help you see 
+> the bug that was introduced?
+The computer is much faster at catching simple differences in text 
+than the human eye.
+
+> How could having easy access to the entire history of a file make 
+> you a more efficient programmer in the long term?
+By having all previous versions, you would be able to revert to a version
+that worked, slowly adding code back until everything worked.
+
+It would also be useful when collaborating. You can see what other people 
+have changed.
+
+Finally, version control would be useful in a continuous integration 
+system, where software tests could be automatically performed on each 
+new version of the software, leading to more stable, performant code.
+
+> What do you think are the pros and cons of manually choosing when to 
+> create a commit, like you do in Git, vs having versions automatically 
+> saved, like Google Docs does?
+Pro:
+ - Can choose logical size for commit, rather than being in the middle
+
+Con:
+ - You can forget to perform commits, resulting in large changes that are
+   not useful.
+
+> Why do you think some version control systems, like Git, allow saving 
+> multiple files in one commit, while others, like Google Docs, treat 
+> each file separately?
+This allows for different use cases. There are some cases where users 
+could create multiple files and changes to those files are logically 
+related to each other. There is probably increased complexity in 
+tracking changes across multiple files as well.
+
+> How can you use the commands git log and git diff to view the history 
+> of files?
+git log is used to display a listing of all of the changes to the repository.
+Kind of like a snapshot of the commited changes.
+
+git diff compares two separate commits to see the changes between the two
+different commits.
+
+> How might using version control make you more confident to make changes 
+> that could break something?
+Using version control means that I can always go back to a version that 
+worked. It would have been especially helpful earlier today when I was 
+working on the Sunshine app, because I changed something and broke it, 
+not realizing what all got changed. Oops!
+
+> Now that you have your workspace set up, what do you want to try using 
+> Git for?
+I'd really like to use Git for my Unity classroom projects, to organize them 
+better for my students. I'd also like to use Git for my One Minute changes 
+app and for my learning modules (like the Sunshine application)
+
+
+
