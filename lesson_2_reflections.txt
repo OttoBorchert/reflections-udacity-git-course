@@ -1,0 +1,12 @@
+> What happens when you initialize a repository? Why do you need to do it?
+Git creates a .git directory in the current working directory. It is created 
+so that git knows that the current directory is a git repository. 
+
+> How is the staging area different from the working directory and the repository? 
+> What value do you think it offers?
+The staging area is a space to put files that you want to put on the repository. It 
+can contain files that are not in the repository, but the files must be in the current 
+working directory. 
+The staging area will allow us to add multiple files at a single time. In the first lesson, 
+one of the advantages of git was the ability to link several files together in a single commit,
+this would help with this ability.
