@@ -29,3 +29,11 @@ in the branches.
 You can see the parents of all commits. You can also see any commits that are not related 
 to a branch. The information in these commits would be lost if you didn't create a branch. 
 
+> What is the result of merging two branches together? 
+> Why do we represent it in the diagram the way we do?
+The result is a combined code base with all changes in one branch. It is represented in 
+the diagram that way because both branches had parent commits. By creating a new commit 
+with two parents, this maintains the structure of the commits in both branches, if needed 
+later.
+
+
