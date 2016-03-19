@@ -28,3 +28,7 @@ you may use a branch to test a new functionality before releasing
 it to the public, or attempt a wide refactor, all without changing 
 the base, master branch.
 
+> What is the benefit of having a copy of the last known state of 
+> the remote stored locally?
+So that you know what changes have been made, both locally and 
+remotely since the last time the repositories were synced. 
