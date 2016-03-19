@@ -32,3 +32,15 @@ the base, master branch.
 > the remote stored locally?
 So that you know what changes have been made, both locally and 
 remotely since the last time the repositories were synced. 
+
+> How would you collaborate without using Git or GitHub? 
+> What would be easier, and what would be harder?
+In the past, I've collaborated using e-mail, transferring Word 
+documents between editors. A long time ago, I used a shared network 
+drive to do concurrent code changes. It was much easier to make 
+changes in the Git-less environment, but MUCH easier to make mistakes 
+or have problems when two people were working on the project 
+at the same time. As compared to other version control systems I've 
+used, it seems much nicer to be able to view all branches without 
+needing to redownload all the files (like in Subversion).
+
