@@ -11,4 +11,20 @@ It may also be the case that you are working on a team and need to check
 a person's commit to make they are bug free and that you actually want 
 to pull them (I believe this is where the term "pull request" comes from?)
 
- 
+> Describe the differences between forks, clones, and branches. 
+> When would you use one instead of another? 
+Forks are copies of other people's GitHub repositories that are 
+created only on GitHub. You'd use them when you want to make changes 
+to someone else's code/project without modifying their project.
+
+Clones are copies of any Git repository, local, remote, or on GitHub. 
+You would use this when you want to create a local copy of your own 
+remote repository or copies of collaborators repositories.
+
+Branches are a way to distiguish between specific commits of a 
+repository. They are used to create separate code/project files 
+that may eventually be merged into a master branch. For example, 
+you may use a branch to test a new functionality before releasing 
+it to the public, or attempt a wide refactor, all without changing 
+the base, master branch.
+
