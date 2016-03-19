@@ -44,3 +44,12 @@ at the same time. As compared to other version control systems I've
 used, it seems much nicer to be able to view all branches without 
 needing to redownload all the files (like in Subversion).
 
+> When would you want to make changes in a separate branch rather 
+> than directly in master? What benefits does each approach have?
+You still want to make changes in a branch when you want to make large 
+scale changes to a project like I mentioned above, however, you'd also 
+want to make a change in a branch if you want to submit a pull request 
+in GitHub. Editing directly in master is a little more direct, however, 
+using branches and pull requests offers opportunities for feedback and 
+collaboration that just enforcing your will on the master branch does 
+not provide.
